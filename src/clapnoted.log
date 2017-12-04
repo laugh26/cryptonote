@@ -1,0 +1,61 @@
+2017-Dec-04 12:44:53.112954 INFO [daemon] clapnote v1.1.1.1()
+2017-Dec-04 12:44:53.113408 INFO [daemon] Module folder: ./clapnoted
+2017-Dec-04 12:44:53.121191 INFO [daemon] Initializing p2p server...
+2017-Dec-04 12:44:53.331539 INFO [node_server] Binding on 0.0.0.0:2991
+2017-Dec-04 12:44:53.331794 INFO [node_server] Net service binded on 0.0.0.0:2991
+2017-Dec-04 12:44:53.331923 INFO [node_server] Attempting to add IGD port mapping.
+2017-Dec-04 12:44:57.335495 INFO [node_server] No IGD was found.
+2017-Dec-04 12:44:57.335758 INFO [daemon] P2p server initialized OK
+2017-Dec-04 12:44:57.335884 INFO [daemon] Initializing core...
+2017-Dec-04 12:44:57.343219 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2017-Dec-04 12:44:57.618194 INFO [Blockchain] Blockchain initialized. last block: 0, d1979.h6.m44.s57 time ago, current difficulty: 1
+2017-Dec-04 12:44:57.618395 INFO [daemon] Core initialized OK
+2017-Dec-04 12:44:57.618739 INFO [daemon] Starting core rpc server on address 127.0.0.1:5891
+2017-Dec-04 12:44:57.618951 INFO [daemon] Core rpc server started ok
+2017-Dec-04 12:44:57.619065 INFO [daemon] Starting p2p net loop...
+2017-Dec-04 12:44:57.619164 INFO [node_server] Starting node_server
+2017-Dec-04 12:45:12.628684 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:45:12.629037 INFO [core] 
+2017-Dec-04 12:45:12.629037 INFO [core] **********************************************************************
+2017-Dec-04 12:45:12.629037 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2017-Dec-04 12:45:12.629037 INFO [core] 
+2017-Dec-04 12:45:12.629037 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2017-Dec-04 12:45:12.629037 INFO [core] 
+2017-Dec-04 12:45:12.629037 INFO [core] Use "help" command to see the list of available commands.
+2017-Dec-04 12:45:12.629037 INFO [core] 
+2017-Dec-04 12:45:12.629037 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2017-Dec-04 12:45:12.629037 INFO [core] **********************************************************************
+2017-Dec-04 12:45:29.632147 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:45:46.633692 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:46:03.635159 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:46:13.530163 INFO [daemon] clapnote v1.1.1.1()
+2017-Dec-04 12:46:13.530602 INFO [daemon] Module folder: ./clapnoted
+2017-Dec-04 12:46:13.540920 INFO [daemon] Initializing p2p server...
+2017-Dec-04 12:46:13.852694 INFO [node_server] Binding on 0.0.0.0:2991
+2017-Dec-04 12:46:13.853139 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-04 12:46:13.853819 ERROR [daemon] Exception: TcpListener::TcpListener, bind failed, result=98, Address already in use
+2017-Dec-04 12:46:20.638090 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:46:37.639788 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:46:54.641461 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:47:02.983500 INFO [node_server] Stop signal sent
+2017-Dec-04 12:47:02.983873 INFO [node_server] Stopping NodeServer and it's0 connections...
+2017-Dec-04 12:47:07.984722 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2017-Dec-04 12:47:08.985164 INFO [node_server] NodeServer loop stopped
+2017-Dec-04 12:47:08.985519 INFO [daemon] p2p net loop stopped
+2017-Dec-04 12:47:08.985717 INFO [daemon] Stopping core rpc server...
+2017-Dec-04 12:47:08.985978 INFO [daemon] Deinitializing core...
+2017-Dec-04 12:47:08.986177 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-04 12:47:08.986569 INFO [Blockchain] Saving blockchain...
+2017-Dec-04 12:47:08.986931 INFO [BlockCacheSerializer] - saving block index...
+2017-Dec-04 12:47:08.987166 INFO [BlockCacheSerializer] - saving transaction map...
+2017-Dec-04 12:47:08.987348 INFO [BlockCacheSerializer] - saving spent keys...
+2017-Dec-04 12:47:08.987564 INFO [BlockCacheSerializer] - saving outputs...
+2017-Dec-04 12:47:08.987749 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2017-Dec-04 12:47:08.987930 INFO [BlockCacheSerializer] Serialization time: 1ms
+2017-Dec-04 12:47:08.988157 INFO [Blockchain] Saving blockchain indices...
+2017-Dec-04 12:47:08.988451 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2017-Dec-04 12:47:08.988670 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2017-Dec-04 12:47:08.988859 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2017-Dec-04 12:47:08.989094 INFO [daemon] Deinitializing p2p...
+2017-Dec-04 12:47:08.989566 INFO [miner] Mining has been stopped, 0 finished
+2017-Dec-04 12:47:08.990503 INFO [daemon] Node stopped.
